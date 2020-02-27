@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Healthcheck the staging endpoint
-        run: curl http://prod.opossum.february.ldn.devopsplayground.com:2048/
+        run: http://staging.opossum.february.ldn.devopsplayground.com:2048/
